@@ -1,10 +1,42 @@
-* {
+*{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
 body {
-    font-family: Roboto;
-    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    height: 72px;
+    font-family: 'Roboto';font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1f2937;
+}
+
+.header h2 {
+    color: white;
+    padding: 0 16px;
+    padding-left: 200px;
+}
+
+.header ul {
+    color: lightgrey;
+    display: flex;
+    list-style-type: none;
+    gap: 12px;
+    padding: 0 16px;
+}
+
+.footer {
+    color: white;
+    background-color: #1f2937;
+    height: 72px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
