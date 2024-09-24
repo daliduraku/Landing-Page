@@ -7,28 +7,29 @@
 body {
     display: flex;
     flex-direction: column;
+    margin: 0 auto;
 }
 
 .header {
     height: 72px;
     font-family: 'Roboto';font-size: 18px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     background-color: #1f2937;
+    gap: 16px;
 }
 
 .header h2 {
     color: white;
     padding: 0 16px;
-    padding-left: 200px;
 }
 
 .header ul {
     color: lightgrey;
     display: flex;
     list-style-type: none;
-    gap: 12px;
+    gap: 16px;
     padding: 0 16px;
 }
 
@@ -39,4 +40,51 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    background-color: #1f2937;
+    padding: 32px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-items: flex-start;
+    text-align: center;
+}
+
+.container h1 {
+    display: flex;
+    
+    color: white;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.container p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+
+}
+
+.container button {
+    display: flex;
+    color: white;
+    background-color: #3882F6;
+    padding: 8px 16px;
+    border: none;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 16px;
+
 }
