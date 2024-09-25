@@ -14,7 +14,7 @@ body {
     height: 72px;
     font-family: 'Roboto';font-size: 18px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     background-color: #1f2937;
     gap: 16px;
@@ -22,7 +22,6 @@ body {
 
 .header h2 {
     color: white;
-    padding: 0 16px;
 }
 
 .header ul {
@@ -30,7 +29,6 @@ body {
     display: flex;
     list-style-type: none;
     gap: 16px;
-    padding: 0 16px;
 }
 .body img {
     border-radius: 8px;
