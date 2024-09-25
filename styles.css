@@ -187,8 +187,8 @@ h1 {
 
 .footer {
     background-color: #1f2937;
-    color: white;
-    padding: 50px;
+    color: #E5E7EB;
+    padding: 2rem;
     display: flex;
     justify-content: center;
     align-items: center;
