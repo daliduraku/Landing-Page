@@ -4,68 +4,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
     <title>Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-    <div class="header">
-        <h2>Header Logo</h2>
-        <ul>
-            <li>header link one</li>
-            <li>header link two</li>
-            <li>header link three</li>
-        </ul>
-    </div>
-    <div class="body">
-        <div class="container">
-            <h1>This website is awesome</h1>
-            <p>This website has some subtext that goes here under the main title.
-                It's a smaller font and the color is lower contrast</p>
-            <button>Sign up</button>
+    <header>
+        <div class="header-container">
+            <div class="header-logo">
+                <a class="header-logo">Header Logo</a>
+                <div class="secondary-logo-container">
+                    <a class="secondary-logo">header link one</a>
+                    <a class="secondary-logo">header link two</a>
+                    <a class="secondary-logo">header link three</a>
+                </div>
+            </div>
         </div>
-        <img src="./cute doggy.jpg" alt="Cute doggy" width="300" height="300">
-    </div>
 
-    <div class="title">Some random information.</div>
-    <div class="section">
-        <div class="info">
-            <img src="./doggy on beach.jpg" alt="barberry" width="200" height="200">
-            <div class="text">This is a type of plant. We love this one.</div>
+        <div class="text-img-container">
+            <div class="header-text-container">
+                <h1 class="awesome-text">This website is awesome</h1>
+                <div class="awesome-subtext">
+                    This website has some subtext that goes here under the main title. It's a smaller font and the color
+                    is lower contrast
+                </div>
+                <div class="button-container">
+                    <button class="signup-button">Sign up</button>
+                </div>
+            </div>
+            <img src="./cute doggy.jpg" alt="Cute doggy" width="300" height="400">
         </div>
-        <div class="info">
-            <img src="./doggy on beach.jpg" alt="barberry" width="200" height="200">
-            <div class="text">This is another type of plant. Isn't it nice?</div>
-        </div>
-        <div class="info">
-            <img src="./doggy on beach.jpg" alt="barberry" width="200" height="200">
-            <div class="text">We have so many plants. Yay plants.</div>
-        </div>
-        <div class="info">
-            <img src="./doggy on beach.jpg" alt="barberry" width="200" height="200">
-            <div class="text">I'm running out of things to say about plants.</div>
-        </div>
-    </div>
-
-    <div class="section-two">
-        <div class="quote">It is not the critic who counts; not the man who points out how the strong man stumbles, or
-            where the doer of deeds could have done them better. The credit belongs to the man who is actually in the
-            arena, whose face is marred by dust and sweat and blood;”</div>
-        <h3>- Theodore Roosevelt</h3>
-    </div>
-   <div class="outter">
-    <div class="section-three">
-        <div class="content">
-            <h3>Call to action! It's time!</h3>
-            <p>
-            Sign up for our product by clicking the button right over there!
-            </p>
-        </div>
-        <button>Sign up</button>
-    </div>
-    <div class="footer">
-        Copyright © The Odin Project 2021
-    </div>
+    </header>
 </body>
 
 </html>
