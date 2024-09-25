@@ -16,11 +16,13 @@ header {
     font-family: 'Roboto';
 }
 
-.text-img-container img {
-    max-width: 35%;
-    max-height: 20%;
-    border-radius: 8px;
-    align-self: center; 
+img {
+    width: 100%;
+    height: auto;
+    max-width: 300px;
+    max-height: 300px;
+    object-fit: cover;
+    border-radius: 5px;
 }
 
 .header-container {
@@ -106,6 +108,32 @@ h1 {
 .body-img-container {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 100px;
+}
 
+.body-subtext-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.dog-text {
+    text-align: center;
+    padding-top: 12px;
+}
+
+.quote-container {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    font-style: light italic;
+    padding: 100px;
+
+}
+
+.quote-container .teddy {
+    text-align: end;
+    font-weight: bold;
 }
